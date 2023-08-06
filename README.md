@@ -1,6 +1,6 @@
-# PorfolioPulse
+# PortPulse
 
-PortfolioPulse is a script used to generate investment statements based on a proprietary dataset and templates. The program is customized to read data from an Excel spreadsheet, create a separate Excel spreadsheet from a given template, and fill in client and investment information based on the dataset.
+PortPulse is a script used to generate investment statements based on a proprietary dataset and templates. The program is customized to read data from an Excel spreadsheet, create a separate Excel spreadsheet from a given template, and fill in client and investment information based on the dataset.
 
 ## Dependencies
 
