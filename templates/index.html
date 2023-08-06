@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wealth Space</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="logout-container">
+        <a href="/logout" class="logout-button">Logout</a>
+    </div>
+
+    <h1>Upload Excel File</h1>
+    
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="text" name="pdf_date" placeholder="Enter the date (X.XX.XXXX)">
+        <input type="text" name="pdf_date2" placeholder="Enter the date (Month/Day/Year)">
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
+
+

@@ -1,0 +1,29 @@
+.logo-container {
+    text-align: center;
+}
+
+.logout-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.logout-button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+}
+
+.login-container {
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+}
